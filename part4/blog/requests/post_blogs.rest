@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJhYmEiLCJpZCI6IjVlOTI5N2JmMjM5MTQ1NmRmYTNhZGI2NCIsImlhdCI6MTU4NjY2NTk3NX0.MtCmmhrjMbRN1TXX0n6n-JlHy8Jr94yhfRo_jb0WbRQ
+
+{
+  "title": "banana3",
+  "author": "test",
+  "url": "test",
+  "likes": 72
+}
